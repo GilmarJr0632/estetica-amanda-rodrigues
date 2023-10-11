@@ -11,6 +11,8 @@ body {
   src: url(../font/Celina\ Stephanie.otf);
 }
 
+/*header*/
+
 header {
   background-color: #ddd5c8;
   padding: 20px;
@@ -50,30 +52,8 @@ nav {
   text-decoration: none;
   margin-left: 28px;
 }
-/*
 
-.tabela {
-  padding-top: 200px;
-  padding-bottom: 150px;
-  background-color: #404435;
-  flex-direction: row;
-}
-
-.tabela h1 {
-  color: white;
-  padding-left: 190px;
-  font-family: "amanda", Times, serif;
-  font-size: 90px;
-  font-weight: normal;
-}
-
-.tabela h3 {
-  font-size: 25px;
-  padding-left: 195px;
-  font-family: "Julius Sans One", sans-serif;
-  color: #ddd5c8;
-}
-*/
+/*início*/
 
 .container {
   width: 100%;
@@ -115,4 +95,40 @@ nav {
 
 strong {
   font-style: italic;
+}
+
+/*Sobre Mim*/
+
+h1#sobremim {
+  color: #404435;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 120px 0 0 120px;
+}
+
+hr {
+  color: gray;
+
+  margin: 20px 40px 30px 40px;
+}
+
+p#sobreAmanda {
+  padding: 0 80px 50px 80px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  text-indent: 2px;
+}
+
+.sobreAR {
+  display: flex;
+}
+
+#Ogrande {
+  width: 50px;
+  height: 55px;
+  border-radius: 11px;
+  border-top: 100px;
+}
+
+#ola {
+  font-style: normal;
 }
