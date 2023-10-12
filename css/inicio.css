@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ddd5c8;
 }
@@ -40,7 +45,7 @@ nav {
 }
 
 .nameSecundary {
-  padding-left: 430px;
+  padding-left: 380px;
   padding-top: 8px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -106,9 +111,9 @@ h1#sobremim {
 }
 
 hr {
-  color: gray;
+  color: #746053;
 
-  margin: 20px 40px 30px 40px;
+  margin: 20px 80px 30px 80px;
 }
 
 p#sobreAmanda {
@@ -131,4 +136,18 @@ p#sobreAmanda {
 
 #ola {
   font-style: normal;
+}
+
+/*Tratamentos*/
+
+.tratamento h1 {
+  color: #404435;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 120px 0 0 120px;
+}
+
+hr {
+  color: #746053;
+
+  margin: 20px 80px 30px 80px;
 }
